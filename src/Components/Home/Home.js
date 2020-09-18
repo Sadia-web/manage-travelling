@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import Area from '../Area/Area';
 import {fakeData} from '../fakeData/fakeData';
 import './Home.css';

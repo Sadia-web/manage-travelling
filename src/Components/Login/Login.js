@@ -20,11 +20,6 @@ const Login = () => {
 
     const handleGoogleSignIn = () => {
 
-        if (firebase.apps.length === 0) {
-            firebase.initializeApp(firebaseConfig);
-        }
-
-        //Google sign-in provider
         var provider = new firebase.auth.GoogleAuthProvider();
 
         firebase.auth().signInWithPopup(provider).then(function (result) {
