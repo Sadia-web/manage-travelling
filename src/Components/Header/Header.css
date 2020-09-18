@@ -1,6 +1,16 @@
-.nav{
-    margin: 0px 50px;
+.navbar-brand img{
+    height: 60px;
+    
 }
-img{
-    width: 100px;
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-link:link, .navbar .navbar-nav .nav-item .nav-link:visited  {
+    color: black;
+    margin-right: 40px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active  {
+    border-bottom: 1px solid lightgrey;
+    margin-right: 40px;
 }
