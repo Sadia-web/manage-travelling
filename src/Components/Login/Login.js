@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext} from 'react';
 import Fb from '../../images/fb.png';
 import Gl from '../../images/google.png';
 import * as firebase from "firebase/app";
@@ -6,6 +6,8 @@ import "firebase/auth";
 import {firebaseConfig} from './firebaseConfig';
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router-dom';
+
+firebase.initializeApp(firebaseConfig);
 
 const Login = () => {
 
@@ -43,10 +45,6 @@ const Login = () => {
     }
 
     const handleFBLogin = () => {
-
-        if (firebase.apps.length === 0) {
-            firebase.initializeApp(firebaseConfig);
-        }
 
         const fbProvider = new firebase.auth.FacebookAuthProvider();
 
