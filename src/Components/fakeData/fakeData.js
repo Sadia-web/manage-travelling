@@ -3,7 +3,7 @@ export const fakeData = [
         id: 1,
         name: 'Cox`s Bazar',
         description: 'Cox`s Bazar sea beach is the longest sea beach in the world.It is famous mostly for its long natural sandy beach, is the prime beach and tourist town in Bangladesh, situated alongside the beach of the Bay of Bengal, beside the Indian ocean, having unbroken 120 Kilometer golden sand beach, reachable through motor transport alongside the wavy water.',
-        img: 'https://i.ibb.co/tqR1c7r/room1.png'
+        img: 'https://i.ibb.co/gtTMmqy/bg.png'
     },
     {
         id: 2,

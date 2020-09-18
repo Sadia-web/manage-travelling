@@ -23,19 +23,19 @@ const Header = () => {
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destination</a>
+                        <a class="nav-link" href="#destination">Destination</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     {/* <button class="btn bg-warning my-2 my-sm-0 " type="submit"><a href="/login">Login</a></button> */}
                     <a href="/login" class="btn btn-warning" role="button">Login</a>                  
                 </ul>
 
-                    </div>
+            </div>
         </nav>
      
         
